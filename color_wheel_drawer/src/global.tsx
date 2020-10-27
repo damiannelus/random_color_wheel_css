@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 const MagicButton = styled.button`
-  background: "red";
-    color: "white";
+  background: ${props => props.theme.background};
+    color: ${props => props.theme.color};
 
   font-size: 1em;
   margin: 1em;

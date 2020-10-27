@@ -1,17 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import MagicButton from "./global";
+
+const theme = {
+  background: "#1ECBE1",
+  color: "#E1341E"
+};
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <MagicButton>
+        <MagicButton theme={theme}>
           Dupa
         </MagicButton>
       </header>
