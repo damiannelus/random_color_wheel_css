@@ -10,3 +10,5 @@ const MagicButton = styled.button`
   border: 2px solid palevioletred;
   border-radius: 3px;
 `;
+
+export default MagicButton;
